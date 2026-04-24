@@ -1,0 +1,27 @@
+# Troubleshooting Network Connectivity Issue
+
+## 🧾 Problem
+User connected to Wi-Fi but unable to access the internet.
+
+## 🛠 Tools Used
+- Command Prompt
+- ipconfig
+- ping
+
+## 🔍 Steps Taken
+1. Checked IP configuration using ipconfig
+2. Identified missing DHCP IP address
+3. Renewed IP address using:
+   - ipconfig /release
+   - ipconfig /renew
+4. Flushed DNS cache:
+   - ipconfig /flushdns
+5. Tested connectivity using ping
+
+## ✅ Result
+Internet connection successfully restored.
+
+## 💡 What I Learned
+- How DHCP works
+- DNS troubleshooting
+- Network diagnostics basics
